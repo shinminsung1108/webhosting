@@ -1,3 +1,34 @@
+#navbar{
+    padding: 0 20px;
+    overflow: hidden;
+    height: 60px;
+}
+
+#menu {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    line-height: 60px;
+    display: block;
+    color: #AEADAD;
+}
+
+#menu li a:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
+
 #clock{
     text-align: center;
     font-size: 64px;
@@ -21,3 +52,4 @@ form{
     font-weight: bold;
     font-size: 32px;
 }
+
