@@ -1,5 +1,5 @@
 const locationForm = document.querySelector('form');
-const search = document.querySelector('input');
+const search = document.querySelector('#name');
 const messageOne = document.querySelector('#result');
 
 locationForm.addEventListener('submit', (e) => {
