@@ -13,6 +13,7 @@
 
 #menu li{
     float: left;
+    vertical-align: middle;
 }
 
 #menu li a{
@@ -53,3 +54,18 @@ form{
     font-size: 32px;
 }
 
+#btn{
+    border: 0px solid;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    color: #AEADAD;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#btn:hover{
+    background-color: #F2F2F2;
+    color: black;
+}
